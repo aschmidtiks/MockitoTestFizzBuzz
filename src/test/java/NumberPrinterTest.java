@@ -1,4 +1,5 @@
 import classes.NumberPrinter;
+import classes.NumberPrinter.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -12,13 +13,13 @@ import static org.mockito.Mockito.*;
 public class NumberPrinterTest {
 
     @Mock
-    private NumberPrinter.Printer printer;
+    private Printer printer;
 
     @Mock
-    private NumberPrinter.NumberCalculator numberCalculator;
+    private NumberCalculator numberCalculator;
 
     @InjectMocks
-    private NumberPrinter numberPrinter;
+    private NumberPrinter numberPrinter;  //constructor injection
 
     @Test
     public void printsCalculatorResultsHundredTimes() {

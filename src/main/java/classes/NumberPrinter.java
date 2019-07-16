@@ -2,10 +2,11 @@ package classes;
 
 public class NumberPrinter{
 
+    //private FizzBuzz fizzBuzz;
     private NumberCalculator numberCalculator;
     private Printer printer;
 
-    public NumberPrinter(NumberCalculator numberCalculator, Printer printer) {
+    public NumberPrinter(NumberCalculator numberCalculator, Printer printer) { //constructor injection
         this.numberCalculator = numberCalculator;
         this.printer = printer;
     }
@@ -16,6 +17,7 @@ public class NumberPrinter{
         }
         for (int i = 1; i <= limit; i++) {
             try {
+                //printer.print(fizzBuzz.calculate(i));
                 printer.print(numberCalculator.calculate(i));
             } catch (Exception e) {
 
