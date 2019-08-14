@@ -1,5 +1,5 @@
 
-csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(éðË¹8Å‰¢®¿-
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’æ±ñþÿÿÿÿ8ØË™Û¿-
-Fsquid:S00108")Either remove or fill this block of code.(”ý¾8Å‰¢®¿-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô”ß8ØË™Û¿-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô”ß8ØË™Û¿-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’æ±ñþÿÿÿÿ8ØË™Û¿-
+Hsquid:S00108")Either remove or fill this block of code.(”ý¾8Å‰¢®¿-
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(éðË¹8Å‰¢®¿-
